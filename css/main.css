@@ -160,9 +160,14 @@ address { font-style: normal; }
 }
 
 .navbar__logo-img {
-  height: 32px;
+  height: 26px;
   width: auto;
   object-fit: contain;
+  /* El logo tiene el texto en blanco (pensado para fondo oscuro): le ponemos
+     una cápsula oscura para que se vea sobre la navbar clara. */
+  background: var(--color-text);
+  padding: 7px 12px;
+  border-radius: 11px;
 }
 
 .navbar__logo-text {
