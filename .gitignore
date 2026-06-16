@@ -1,0 +1,20 @@
+# Credenciales (¡nunca subir!)
+.gemini-key
+*.key
+.env
+
+# Tooling local del preview
+.claude/
+
+# Node
+node_modules/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Copias de respaldo
+*- copia.html
+*.bak

@@ -1,0 +1,6 @@
+# robots.txt — (oink) Bocadillos
+# ⚠️ Reemplaza el dominio por el tuyo real.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.bocadillosoink.es/sitemap.xml
